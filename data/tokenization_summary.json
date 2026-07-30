@@ -1,0 +1,113 @@
+{
+  "dataset": {
+    "processed_dataset_path": "/content/drive/MyDrive/Scientific-Abstract-GPT/data/processed_structured_dataset",
+    "records": {
+      "train": 178549,
+      "validation": 9919,
+      "test": 9920
+    }
+  },
+  "tokenizer": {
+    "tokenizer_type": "ByteLevelBPE",
+    "vocab_size_target": 8000,
+    "vocab_size_actual": 8000,
+    "minimum_frequency": 2,
+    "special_tokens": [
+      "<PAD>",
+      "<UNK>",
+      "<TITLE>",
+      "<SUBJECT>",
+      "<ABSTRACT>",
+      "<END>"
+    ],
+    "special_token_ids": {
+      "<PAD>": 0,
+      "<UNK>": 1,
+      "<TITLE>": 2,
+      "<SUBJECT>": 3,
+      "<ABSTRACT>": 4,
+      "<END>": 5
+    },
+    "pad_token": "<PAD>",
+    "pad_token_id": 0,
+    "unk_token": "<UNK>",
+    "unk_token_id": 1,
+    "title_token": "<TITLE>",
+    "title_token_id": 2,
+    "subject_token": "<SUBJECT>",
+    "subject_token_id": 3,
+    "abstract_token": "<ABSTRACT>",
+    "abstract_token_id": 4,
+    "end_token": "<END>",
+    "end_token_id": 5,
+    "recommended_block_size": 256,
+    "tokenizer_json_path": "/content/drive/MyDrive/Scientific-Abstract-GPT/data/bpe_tokenizer/tokenizer.json",
+    "tokenized_dataset_path": "/content/drive/MyDrive/Scientific-Abstract-GPT/data/tokenized_bpe_dataset",
+    "token_stream_path": "/content/drive/MyDrive/Scientific-Abstract-GPT/data/tokenized_bpe_streams"
+  },
+  "token_statistics": {
+    "train": {
+      "records": 178549,
+      "total_tokens": 45356215,
+      "minimum_tokens": 59,
+      "maximum_tokens": 1243,
+      "mean_tokens": 254.02670975474518,
+      "median_tokens": 249.0,
+      "percentile_90": 351.0,
+      "percentile_95": 382.0,
+      "percentile_99": 438.0
+    },
+    "validation": {
+      "records": 9919,
+      "total_tokens": 2515850,
+      "minimum_tokens": 62,
+      "maximum_tokens": 650,
+      "mean_tokens": 253.63947978626877,
+      "median_tokens": 249.0,
+      "percentile_90": 350.0,
+      "percentile_95": 382.0,
+      "percentile_99": 437.8199999999997
+    },
+    "test": {
+      "records": 9920,
+      "total_tokens": 2514500,
+      "minimum_tokens": 70,
+      "maximum_tokens": 770,
+      "mean_tokens": 253.47782258064515,
+      "median_tokens": 248.0,
+      "percentile_90": 353.0,
+      "percentile_95": 384.0,
+      "percentile_99": 438.0
+    }
+  },
+  "token_streams": {
+    "dtype": "uint16",
+    "vocab_size": 8000,
+    "special_token_ids": {
+      "<PAD>": 0,
+      "<UNK>": 1,
+      "<TITLE>": 2,
+      "<SUBJECT>": 3,
+      "<ABSTRACT>": 4,
+      "<END>": 5
+    },
+    "streams": {
+      "train": {
+        "path": "/content/drive/MyDrive/Scientific-Abstract-GPT/data/tokenized_bpe_streams/train_tokens.bin",
+        "number_of_tokens": 45356215
+      },
+      "validation": {
+        "path": "/content/drive/MyDrive/Scientific-Abstract-GPT/data/tokenized_bpe_streams/validation_tokens.bin",
+        "number_of_tokens": 2515850
+      },
+      "test": {
+        "path": "/content/drive/MyDrive/Scientific-Abstract-GPT/data/tokenized_bpe_streams/test_tokens.bin",
+        "number_of_tokens": 2514500
+      }
+    }
+  },
+  "validation": {
+    "special_tokens_are_valid": true,
+    "token_ranges_are_valid": true
+  }
+}

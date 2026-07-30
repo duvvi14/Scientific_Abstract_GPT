@@ -1,0 +1,38 @@
+{
+  "tokenizer_type": "ByteLevelBPE",
+  "vocab_size_target": 8000,
+  "vocab_size_actual": 8000,
+  "minimum_frequency": 2,
+  "special_tokens": [
+    "<PAD>",
+    "<UNK>",
+    "<TITLE>",
+    "<SUBJECT>",
+    "<ABSTRACT>",
+    "<END>"
+  ],
+  "special_token_ids": {
+    "<PAD>": 0,
+    "<UNK>": 1,
+    "<TITLE>": 2,
+    "<SUBJECT>": 3,
+    "<ABSTRACT>": 4,
+    "<END>": 5
+  },
+  "pad_token": "<PAD>",
+  "pad_token_id": 0,
+  "unk_token": "<UNK>",
+  "unk_token_id": 1,
+  "title_token": "<TITLE>",
+  "title_token_id": 2,
+  "subject_token": "<SUBJECT>",
+  "subject_token_id": 3,
+  "abstract_token": "<ABSTRACT>",
+  "abstract_token_id": 4,
+  "end_token": "<END>",
+  "end_token_id": 5,
+  "recommended_block_size": 256,
+  "tokenizer_json_path": "/content/drive/MyDrive/Scientific-Abstract-GPT/data/bpe_tokenizer/tokenizer.json",
+  "tokenized_dataset_path": "/content/drive/MyDrive/Scientific-Abstract-GPT/data/tokenized_bpe_dataset",
+  "token_stream_path": "/content/drive/MyDrive/Scientific-Abstract-GPT/data/tokenized_bpe_streams"
+}

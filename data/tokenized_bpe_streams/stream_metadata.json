@@ -1,0 +1,26 @@
+{
+  "dtype": "uint16",
+  "vocab_size": 8000,
+  "special_token_ids": {
+    "<PAD>": 0,
+    "<UNK>": 1,
+    "<TITLE>": 2,
+    "<SUBJECT>": 3,
+    "<ABSTRACT>": 4,
+    "<END>": 5
+  },
+  "streams": {
+    "train": {
+      "path": "/content/drive/MyDrive/Scientific-Abstract-GPT/data/tokenized_bpe_streams/train_tokens.bin",
+      "number_of_tokens": 45356215
+    },
+    "validation": {
+      "path": "/content/drive/MyDrive/Scientific-Abstract-GPT/data/tokenized_bpe_streams/validation_tokens.bin",
+      "number_of_tokens": 2515850
+    },
+    "test": {
+      "path": "/content/drive/MyDrive/Scientific-Abstract-GPT/data/tokenized_bpe_streams/test_tokens.bin",
+      "number_of_tokens": 2514500
+    }
+  }
+}

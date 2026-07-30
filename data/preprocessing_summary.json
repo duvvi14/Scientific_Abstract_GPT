@@ -1,0 +1,50 @@
+{
+  "dataset_name": "nick007x/arxiv-papers",
+  "seed": 42,
+  "selected_categories": [
+    "Artificial Intelligence (cs.AI)",
+    "Computation and Language (cs.CL)",
+    "Machine Learning (cs.LG)"
+  ],
+  "subject_label_map": {
+    "Artificial Intelligence (cs.AI)": "Artificial Intelligence",
+    "Machine Learning (cs.LG)": "Machine Learning",
+    "Computation and Language (cs.CL)": "Computation and Language"
+  },
+  "special_tokens": [
+    "<PAD>",
+    "<UNK>",
+    "<TITLE>",
+    "<SUBJECT>",
+    "<ABSTRACT>",
+    "<END>"
+  ],
+  "quality_filters": {
+    "minimum_title_characters": 5,
+    "minimum_abstract_words": 40,
+    "maximum_abstract_words": 600
+  },
+  "records": {
+    "after_category_filter": 198858,
+    "after_quality_and_duplicate_filter": 198388,
+    "train": 178549,
+    "validation": 9919,
+    "test": 9920
+  },
+  "statistics": {
+    "average_title_characters": 75.33,
+    "average_abstract_characters": 1168.66,
+    "average_abstract_words": 165.79
+  },
+  "subject_distribution": {
+    "Machine Learning": 106311,
+    "Computation and Language": 64534,
+    "Artificial Intelligence": 27543
+  },
+  "output_paths": {
+    "processed_dataset": "/content/drive/MyDrive/Scientific-Abstract-GPT/data/processed_structured_dataset",
+    "train_text": "/content/drive/MyDrive/Scientific-Abstract-GPT/data/tokenizer_data/train_text.txt",
+    "validation_text": "/content/drive/MyDrive/Scientific-Abstract-GPT/data/tokenizer_data/validation_text.txt",
+    "test_text": "/content/drive/MyDrive/Scientific-Abstract-GPT/data/tokenizer_data/test_text.txt"
+  }
+}
