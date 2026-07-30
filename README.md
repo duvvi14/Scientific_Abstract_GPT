@@ -268,25 +268,9 @@ Version Control
 
 This project was developed as part of a graduate Natural Language Processing / Deep Learning course.
 
-Special thanks to the course instructor for valuable guidance throughout the project.
+--
 
----
 
-## Author
-
-**Satya Bharath Reddy Duvvi**
-
-Master of Science in Computer Science (Data Science)
-
-The George Washington University
-
-GitHub:
-https://github.com/<your-username>
-
-LinkedIn:
-https://linkedin.com/in/<your-profile>
-
----
 
 ## License
 
