@@ -30,15 +30,38 @@ The project demonstrates the complete NLP pipeline including data preprocessing,
 
 ## Dataset
 
-Source:
+This project uses the **arXiv Papers Dataset** available on Hugging Face.
 
-- arXiv Research Papers
+**Dataset:** `nick007x/arxiv-papers`
 
-Filtered Categories:
+**Source:**
+https://huggingface.co/datasets/nick007x/arxiv-papers
 
-- Artificial Intelligence (cs.AI)
-- Machine Learning (cs.LG)
-- Computation and Language (cs.CL)
+### Dataset Description
+
+The dataset contains metadata and abstracts from scientific papers published on arXiv across multiple research domains.
+
+Each record includes:
+
+- arXiv ID
+- Title
+- Authors
+- Submission Date
+- Primary Subject
+- Subjects
+- DOI (if available)
+- Abstract
+
+### Categories Used
+
+For this project, the dataset was filtered to the following Computer Science categories:
+
+- **cs.AI** – Artificial Intelligence
+- **cs.LG** – Machine Learning
+- **cs.CL** – Computation and Language
+
+After filtering, approximately **198,858** papers were retained. A representative subset of approximately **30,000** papers was randomly sampled for tokenizer training and GPT model training.
+
 
 Each training sample follows the structure:
 
