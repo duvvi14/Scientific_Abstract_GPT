@@ -1,0 +1,43 @@
+{
+  "model_name": "Scientific Abstract GPT",
+  "model_type": "Decoder-only Transformer",
+  "tokenizer_type": "Byte-Level BPE",
+  "configuration": {
+    "vocab_size": 8000,
+    "block_size": 256,
+    "n_embd": 256,
+    "n_head": 8,
+    "n_layer": 6,
+    "dropout": 0.1,
+    "bias": true
+  },
+  "derived_values": {
+    "head_size": 32,
+    "feed_forward_hidden_size": 1024,
+    "trainable_parameters": 6852608,
+    "total_parameters": 6852608,
+    "parameters_millions": 6.8526,
+    "estimated_fp32_parameter_memory_mb": 26.14
+  },
+  "special_token_ids": {
+    "<PAD>": 0,
+    "<UNK>": 1,
+    "<TITLE>": 2,
+    "<SUBJECT>": 3,
+    "<ABSTRACT>": 4,
+    "<END>": 5
+  },
+  "components": [
+    "Token embedding",
+    "Positional embedding",
+    "Masked self-attention",
+    "Multi-head attention",
+    "Feed-forward network",
+    "Transformer block",
+    "Layer normalization",
+    "Residual connection",
+    "Language-model output head"
+  ],
+  "common_module": "/content/drive/MyDrive/Scientific-Abstract-GPT/src/gpt_components.py",
+  "tokenizer_path": "/content/drive/MyDrive/Scientific-Abstract-GPT/data/bpe_tokenizer/tokenizer.json"
+}
