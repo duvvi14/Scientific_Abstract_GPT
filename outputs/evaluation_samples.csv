@@ -1,0 +1,7 @@
+sample_number,title,subject,word_count,unique_word_count,word_diversity,trigram_repetition_rate,structural_compliance,contains_end_token,is_empty
+1,Deep Learning for Medical Image Classification,Machine Learning,139,88,0.6330935251798561,0.0072992700729927005,1.0,True,False
+2,Transformer Models for Scientific Document Summarization,Computation and Language,101,77,0.7623762376237624,0.0,1.0,True,False
+3,Reinforcement Learning for Autonomous Robot Navigation,Artificial Intelligence,103,60,0.5825242718446602,0.019801980198019802,1.0,True,False
+4,Neural Networks for Natural Language Understanding,Computation and Language,177,109,0.615819209039548,0.022857142857142857,0.75,False,False
+5,Explainable Artificial Intelligence for Healthcare Decision Support,Artificial Intelligence,170,109,0.6411764705882353,0.0,1.0,True,False
+6,Self-Supervised Representation Learning from Unlabeled Data,Machine Learning,92,72,0.782608695652174,0.0,1.0,True,False

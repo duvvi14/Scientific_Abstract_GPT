@@ -1,0 +1,106 @@
+{
+  "checkpoint": {
+    "path": "/content/drive/MyDrive/Scientific-Abstract-GPT/models/best_model.pt",
+    "step": 3000,
+    "validation_loss_at_save": 3.893538475036621
+  },
+  "language_model_metrics": {
+    "final_training_loss": 3.8820278644561768,
+    "final_validation_loss": 3.888277530670166,
+    "train_validation_gap": 0.006249666213989258,
+    "test_loss": 3.880691931247711,
+    "test_perplexity": 48.45773289357592
+  },
+  "generation_metrics": {
+    "number_of_samples": 6,
+    "average_abstract_words": 130.33333333333334,
+    "average_word_diversity": 0.6695997349880393,
+    "average_trigram_repetition_rate": 0.00832639885469256,
+    "structural_compliance_rate": 0.9583333333333334,
+    "end_token_completion_rate": 0.8333333333333334,
+    "empty_output_rate": 0.0
+  },
+  "model_config": {
+    "vocab_size": 8000,
+    "block_size": 256,
+    "n_embd": 256,
+    "n_head": 8,
+    "n_layer": 6,
+    "dropout": 0.1,
+    "bias": true
+  },
+  "sample_evaluations": [
+    {
+      "sample_number": 1,
+      "title": "Deep Learning for Medical Image Classification",
+      "subject": "Machine Learning",
+      "word_count": 139,
+      "unique_word_count": 88,
+      "word_diversity": 0.6330935251798561,
+      "trigram_repetition_rate": 0.0072992700729927005,
+      "structural_compliance": 1.0,
+      "contains_end_token": true,
+      "is_empty": false
+    },
+    {
+      "sample_number": 2,
+      "title": "Transformer Models for Scientific Document Summarization",
+      "subject": "Computation and Language",
+      "word_count": 101,
+      "unique_word_count": 77,
+      "word_diversity": 0.7623762376237624,
+      "trigram_repetition_rate": 0.0,
+      "structural_compliance": 1.0,
+      "contains_end_token": true,
+      "is_empty": false
+    },
+    {
+      "sample_number": 3,
+      "title": "Reinforcement Learning for Autonomous Robot Navigation",
+      "subject": "Artificial Intelligence",
+      "word_count": 103,
+      "unique_word_count": 60,
+      "word_diversity": 0.5825242718446602,
+      "trigram_repetition_rate": 0.019801980198019802,
+      "structural_compliance": 1.0,
+      "contains_end_token": true,
+      "is_empty": false
+    },
+    {
+      "sample_number": 4,
+      "title": "Neural Networks for Natural Language Understanding",
+      "subject": "Computation and Language",
+      "word_count": 177,
+      "unique_word_count": 109,
+      "word_diversity": 0.615819209039548,
+      "trigram_repetition_rate": 0.022857142857142857,
+      "structural_compliance": 0.75,
+      "contains_end_token": false,
+      "is_empty": false
+    },
+    {
+      "sample_number": 5,
+      "title": "Explainable Artificial Intelligence for Healthcare Decision Support",
+      "subject": "Artificial Intelligence",
+      "word_count": 170,
+      "unique_word_count": 109,
+      "word_diversity": 0.6411764705882353,
+      "trigram_repetition_rate": 0.0,
+      "structural_compliance": 1.0,
+      "contains_end_token": true,
+      "is_empty": false
+    },
+    {
+      "sample_number": 6,
+      "title": "Self-Supervised Representation Learning from Unlabeled Data",
+      "subject": "Machine Learning",
+      "word_count": 92,
+      "unique_word_count": 72,
+      "word_diversity": 0.782608695652174,
+      "trigram_repetition_rate": 0.0,
+      "structural_compliance": 1.0,
+      "contains_end_token": true,
+      "is_empty": false
+    }
+  ]
+}

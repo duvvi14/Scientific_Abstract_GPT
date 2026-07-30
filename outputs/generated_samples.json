@@ -1,0 +1,113 @@
+{
+  "checkpoint_path": "/content/drive/MyDrive/Scientific-Abstract-GPT/models/best_model.pt",
+  "checkpoint_step": 3000,
+  "checkpoint_validation_loss": 3.893538475036621,
+  "model_config": {
+    "vocab_size": 8000,
+    "block_size": 256,
+    "n_embd": 256,
+    "n_head": 8,
+    "n_layer": 6,
+    "dropout": 0.1,
+    "bias": true
+  },
+  "number_of_samples": 6,
+  "samples": [
+    {
+      "title": "Deep Learning for Medical Image Classification",
+      "subject": "Machine Learning",
+      "prompt": "<TITLE> Deep Learning for Medical Image Classification <SUBJECT> Machine Learning <ABSTRACT>",
+      "generated_text": "<TITLE> Deep Learning for Medical Image Classification <SUBJECT> Machine Learning <ABSTRACT> Time series prediction is a significant challenge in the development of intelligent system. A key limitation in real-world machine learning, research in the field of social media is to be in the way to improve the performance of the prediction model. In this work, we propose an online multi-domain model based on time series classification (BI), which learns a sequence to learn from a number of data. This enables efficient analysis for the presence of the prediction of different types of features. We show that a classifier can be used as an optimization problem, as well as many applications of the models. Moreover, we introduce a novel approach for evaluating the quality of the classifiers on the data set. The proposed method improves the accuracy by using some state-of-the-art methods on the WiNet dataset. <END>",
+      "abstract": "Time series prediction is a significant challenge in the development of intelligent system. A key limitation in real-world machine learning, research in the field of social media is to be in the way to improve the performance of the prediction model. In this work, we propose an online multi-domain model based on time series classification (BI), which learns a sequence to learn from a number of data. This enables efficient analysis for the presence of the prediction of different types of features. We show that a classifier can be used as an optimization problem, as well as many applications of the models. Moreover, we introduce a novel approach for evaluating the quality of the classifiers on the data set. The proposed method improves the accuracy by using some state-of-the-art methods on the WiNet dataset.",
+      "prompt_token_count": 13,
+      "generated_token_count": 162,
+      "generation_parameters": {
+        "max_new_tokens": 200,
+        "temperature": 0.8,
+        "top_k": 50,
+        "top_p": 0.95,
+        "repetition_penalty": 1.1
+      }
+    },
+    {
+      "title": "Transformer Models for Scientific Document Summarization",
+      "subject": "Computation and Language",
+      "prompt": "<TITLE> Transformer Models for Scientific Document Summarization <SUBJECT> Computation and Language <ABSTRACT>",
+      "generated_text": "<TITLE> Transformer Models for Scientific Document Summarization <SUBJECT> Computation and Language <ABSTRACT> The increasing number of multimodal text generation tasks in the era of Natural Language Processing (NLP). While recent works have been done to address these issues, there are many studies which aim to explore the potential of various applications. In this paper, we study the problem of automatic classification using an external entity embeddings for sentiment analysis. We focus on the task of generating new concepts from a source language. We present a method that can be used for the target language. Our results demonstrate that the proposed approach can improve the quality of each speaker&#39;s input for each utterance. <END>",
+      "abstract": "The increasing number of multimodal text generation tasks in the era of Natural Language Processing (NLP). While recent works have been done to address these issues, there are many studies which aim to explore the potential of various applications. In this paper, we study the problem of automatic classification using an external entity embeddings for sentiment analysis. We focus on the task of generating new concepts from a source language. We present a method that can be used for the target language. Our results demonstrate that the proposed approach can improve the quality of each speaker&#39;s input for each utterance.",
+      "prompt_token_count": 14,
+      "generated_token_count": 115,
+      "generation_parameters": {
+        "max_new_tokens": 200,
+        "temperature": 0.8,
+        "top_k": 50,
+        "top_p": 0.95,
+        "repetition_penalty": 1.1
+      }
+    },
+    {
+      "title": "Reinforcement Learning for Autonomous Robot Navigation",
+      "subject": "Artificial Intelligence",
+      "prompt": "<TITLE> Reinforcement Learning for Autonomous Robot Navigation <SUBJECT> Artificial Intelligence <ABSTRACT>",
+      "generated_text": "<TITLE> Reinforcement Learning for Autonomous Robot Navigation <SUBJECT> Artificial Intelligence <ABSTRACT> We consider the problem of learning a human-like planning (AI) framework, which is based on multiple agents, and using an agent. The proposed algorithm is designed to address the problem of the problem of selecting a policy with each agent to learn a desired value. We demonstrate that it can be used to predict the policy and in a dynamic manner where the rewards are given to the actions of the environment and the agent with a user to learn in each environment. In particular, we perform two experiments with a number of agents in a range of tasks in both cases. <END>",
+      "abstract": "We consider the problem of learning a human-like planning (AI) framework, which is based on multiple agents, and using an agent. The proposed algorithm is designed to address the problem of the problem of selecting a policy with each agent to learn a desired value. We demonstrate that it can be used to predict the policy and in a dynamic manner where the rewards are given to the actions of the environment and the agent with a user to learn in each environment. In particular, we perform two experiments with a number of agents in a range of tasks in both cases.",
+      "prompt_token_count": 16,
+      "generated_token_count": 115,
+      "generation_parameters": {
+        "max_new_tokens": 200,
+        "temperature": 0.8,
+        "top_k": 50,
+        "top_p": 0.95,
+        "repetition_penalty": 1.1
+      }
+    },
+    {
+      "title": "Neural Networks for Natural Language Understanding",
+      "subject": "Computation and Language",
+      "prompt": "<TITLE> Neural Networks for Natural Language Understanding <SUBJECT> Computation and Language <ABSTRACT>",
+      "generated_text": "<TITLE> Neural Networks for Natural Language Understanding <SUBJECT> Computation and Language <ABSTRACT> Tempstants are commonly used in the field of natural language processing (NLP) to generate an open-source tool for natural language processing. However, many natural language processing systems rely on pre-trained models to generate visual and complex text that make models more complex and often lack their deployment and inference costs. To address these challenges, we propose a neural network architecture to identify multiple forms of downstream tasks. The trained encoder has been trained to automatically learn a long sequences from different modalities by constructing a given task using a large set of unlabeled data. We use our model to train a text-to-to-end model on a large-scale dataset with a single and a large number of labeled data. In particular, we show how the model can predict user-specific words based on these sentences as inputs when compared to a large scale model trained on the target task. Furthermore, the model can be trained directly on these datasets to be trained using this task, without requiring a smaller amount of training data",
+      "abstract": "Tempstants are commonly used in the field of natural language processing (NLP) to generate an open-source tool for natural language processing. However, many natural language processing systems rely on pre-trained models to generate visual and complex text that make models more complex and often lack their deployment and inference costs. To address these challenges, we propose a neural network architecture to identify multiple forms of downstream tasks. The trained encoder has been trained to automatically learn a long sequences from different modalities by constructing a given task using a large set of unlabeled data. We use our model to train a text-to-to-end model on a large-scale dataset with a single and a large number of labeled data. In particular, we show how the model can predict user-specific words based on these sentences as inputs when compared to a large scale model trained on the target task. Furthermore, the model can be trained directly on these datasets to be trained using this task, without requiring a smaller amount of training data",
+      "prompt_token_count": 14,
+      "generated_token_count": 200,
+      "generation_parameters": {
+        "max_new_tokens": 200,
+        "temperature": 0.8,
+        "top_k": 50,
+        "top_p": 0.95,
+        "repetition_penalty": 1.1
+      }
+    },
+    {
+      "title": "Explainable Artificial Intelligence for Healthcare Decision Support",
+      "subject": "Artificial Intelligence",
+      "prompt": "<TITLE> Explainable Artificial Intelligence for Healthcare Decision Support <SUBJECT> Artificial Intelligence <ABSTRACT>",
+      "generated_text": "<TITLE> Explainable Artificial Intelligence for Healthcare Decision Support <SUBJECT> Artificial Intelligence <ABSTRACT> The emergence of AI agents is a key component for AI research, and its effectiveness can be a pivotal task in developing new AI models. However, the complexity of these agents is more difficult to interpret or evaluate and improve the safety of decision-making. In this work, we propose a framework that combines three novel algorithms for modeling various natural language processing tasks. First, we construct several key techniques that are based on their ability to learn to estimate the uncertainty of the model&#39;s own behavior during the agent. Second, we provide a first efficient approach to the exploration of a neural network with different uncertainty levels. Secondly, we show that the proposed method is able to generalize a sequence model and can effectively extract both the input and the features of each model. Then, we demonstrate how the performance of our approach can achieve better performance on real world datasets, and show empirically the benefits of our method to train a range of deep reinforcement learning models. <END>",
+      "abstract": "The emergence of AI agents is a key component for AI research, and its effectiveness can be a pivotal task in developing new AI models. However, the complexity of these agents is more difficult to interpret or evaluate and improve the safety of decision-making. In this work, we propose a framework that combines three novel algorithms for modeling various natural language processing tasks. First, we construct several key techniques that are based on their ability to learn to estimate the uncertainty of the model&#39;s own behavior during the agent. Second, we provide a first efficient approach to the exploration of a neural network with different uncertainty levels. Secondly, we show that the proposed method is able to generalize a sequence model and can effectively extract both the input and the features of each model. Then, we demonstrate how the performance of our approach can achieve better performance on real world datasets, and show empirically the benefits of our method to train a range of deep reinforcement learning models.",
+      "prompt_token_count": 15,
+      "generated_token_count": 191,
+      "generation_parameters": {
+        "max_new_tokens": 200,
+        "temperature": 0.8,
+        "top_k": 50,
+        "top_p": 0.95,
+        "repetition_penalty": 1.1
+      }
+    },
+    {
+      "title": "Self-Supervised Representation Learning from Unlabeled Data",
+      "subject": "Machine Learning",
+      "prompt": "<TITLE> Self-Supervised Representation Learning from Unlabeled Data <SUBJECT> Machine Learning <ABSTRACT>",
+      "generated_text": "<TITLE> Self-Supervised Representation Learning from Unlabeled Data <SUBJECT> Machine Learning <ABSTRACT> In this paper, we propose a novel model for learning domain-specific knowledge transfer in the pre-trained network (SSA) framework. Specifically, we first introduce a novel framework of an effective approach to extract and adapt existing features. The resulting method can handle heterogeneous data into noisy data that can be used to generate robust labels or generate negative samples. By identifying a high-quality knowledge graph to learn an entity representation. Experiments on benchmark datasets demonstrate the effectiveness of our method. The proposed framework is publicly available at this https URL . <END>",
+      "abstract": "In this paper, we propose a novel model for learning domain-specific knowledge transfer in the pre-trained network (SSA) framework. Specifically, we first introduce a novel framework of an effective approach to extract and adapt existing features. The resulting method can handle heterogeneous data into noisy data that can be used to generate robust labels or generate negative samples. By identifying a high-quality knowledge graph to learn an entity representation. Experiments on benchmark datasets demonstrate the effectiveness of our method. The proposed framework is publicly available at this https URL .",
+      "prompt_token_count": 16,
+      "generated_token_count": 108,
+      "generation_parameters": {
+        "max_new_tokens": 200,
+        "temperature": 0.8,
+        "top_k": 50,
+        "top_p": 0.95,
+        "repetition_penalty": 1.1
+      }
+    }
+  ]
+}
